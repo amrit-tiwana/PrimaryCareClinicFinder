@@ -1,10 +1,7 @@
 # PrimaryCareClinicFinder
 This analysis can be used to develop and validate a regional list of primary care clinic locations.
 
-# Code:
-Amrit Tiwana (1,2)
-
-# Project Authors:
+# Authors:
 Amrit Tiwana (1,2), Rita K. McCracken (1)
 
 # Author affiliations:
