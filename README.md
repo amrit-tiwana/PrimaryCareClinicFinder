@@ -27,14 +27,14 @@ Amrit Tiwana<sup>1,2</sup>, Rita K. McCracken<sup>1</sup>
 
 R version 4.3.1 or higher 
 
-## R Packages
+## R packages
 
 - ggplot2
 - dplyr
 - sf
 - ellmer
 
-## Data Sources
+## Data sources
 
 The workflow integrates information from multiple data sources:
 - Physician registry data
