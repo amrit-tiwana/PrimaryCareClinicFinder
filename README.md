@@ -80,8 +80,8 @@ The analysis consists of six main steps:
 
 6. LLM-assisted classification
 
-  6_llm_classification.R
+    6_llm_classification.R
 
-  Uses a large language model to classify remaining unknown practice locations into predefined facility types. The model considers information such as the practice address, physician title, department, number of             physicians, and publicly available contextual knowledge.
+    Uses a large language model to classify remaining unknown practice locations into predefined facility types. The model considers information such as the practice address, physician title, department, number of             physicians, and publicly available contextual knowledge.
 
-  LLM classifications include a confidence level and rationale to support subsequent manual validation.
+    LLM classifications include a confidence level and rationale to support subsequent manual validation.
