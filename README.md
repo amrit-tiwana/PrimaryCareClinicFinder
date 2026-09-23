@@ -52,31 +52,31 @@ The analysis consists of six main steps:
 
     1_preprocessing_registry_data.R
 
-   Cleans and prepares physician registry data for subsequent analysis, including extracting and standardizing practice location information.
+    Cleans and prepares physician registry data for subsequent analysis, including extracting and standardizing practice location information.
 
 3. Geocode practice addresses
 
-   2_geocoding_addresses.R
+    2_geocoding_addresses.R
 
-  Converts practice addresses into geographic coordinates (latitude and longitude) and prepares the locations for spatial analysis.
+    Converts practice addresses into geographic coordinates (latitude and longitude) and prepares the locations for spatial analysis.
 
 3. Calculate the number of physicians per location
 
-  3_calculating_num_physicians.R
+    3_calculating_num_physicians.R
 
-  Identifies unique practice locations and calculates the number of physicians associated with each location.
+    Identifies unique practice locations and calculates the number of physicians associated with each location.
 
 4. Spatially join facility information
 
-  4_spatial_joining_facilities.R
+    4_spatial_joining_facilities.R
 
-  Integrates external facility datasets with physician practice locations using geographic information to identify locations corresponding to hospitals, long-term care homes, walk-in clinics, UPCCs, and correctional facilities.
+    Integrates external facility datasets with physician practice locations using geographic information to identify locations corresponding to hospitals, long-term care homes, walk-in clinics, UPCCs, and correctional         facilities.
 
 5. Deterministic facility classification
 
-  5_deterministic_classification.R
+    5_deterministic_classification.R
 
-  Applies predefined rules to classify practice locations using available registry and facility information. Locations that can be confidently identified using deterministic rules are classified before LLM-assisted classification.
+    Applies predefined rules to classify practice locations using available registry and facility information. Locations that can be confidently identified using deterministic rules are classified before LLM-assisted          classification.
 
 6. LLM-assisted classification
 
