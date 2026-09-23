@@ -43,6 +43,7 @@ The workflow integrates information from multiple data sources:
 - A list of walk-in medical clinic locations
 - A list of urgent and primary care centre (UPCC) locations
 - A list of correctional facility locations
+- A shapefile of community health service areas
 
 ## Workflow
 
