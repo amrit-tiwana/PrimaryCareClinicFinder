@@ -12,6 +12,8 @@ The final dataset includes:
 - Address
 - Latitude
 - Longitude
+- Health Authority name
+- Health Authority identifier
 - Community Health Service Area (CHSA) name
 - CHSA identifier
 
